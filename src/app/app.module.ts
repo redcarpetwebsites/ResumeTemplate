@@ -5,17 +5,15 @@ import { HttpModule } from '@angular/http';
 
 
 import { AppComponent } from './app.component';
+import{CircleImageModule} from './atoms/circle-image/circle-image.module';
 import {HeaderModule} from './components/header/header.module';
 import {MenuModule} from './components/menu/Menu.module';
-import { HeaderTitleComponent } from './atoms/header-title/header-title.component';
-import { ButtonComponent } from './atoms/button/button.component';
+import { ProfileModule } from './components/profile/profile.module';
+
 
 @NgModule({
   declarations: [
-    AppComponent,
-    HeaderTitleComponent,
-    ButtonComponent,
-    
+    AppComponent
 
 
 
@@ -24,8 +22,10 @@ import { ButtonComponent } from './atoms/button/button.component';
     BrowserModule,
     FormsModule,
     HttpModule,
+    CircleImageModule,
     HeaderModule,
-    MenuModule
+    MenuModule,
+    ProfileModule
   ],
   providers: [],
   bootstrap: [AppComponent]
