@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AtomsModule } from '../../atoms/atoms.module';
-import {ProfiledescriptionComponent} from './profiledescription.component';
+import {SectionMenuComponent} from './section-menu.component';
 @NgModule({
   imports: [
     CommonModule,
     AtomsModule
   ],
-  declarations: [ProfiledescriptionComponent],
-  exports : [ProfiledescriptionComponent]
+  declarations: [SectionMenuComponent],
+  exports : [SectionMenuComponent,AtomsModule]
 })
-export class ProfiledescriptionModule { }
+export class SectionMenuModule { }

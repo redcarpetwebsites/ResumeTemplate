@@ -8,9 +8,11 @@ import { AppComponent } from './app.component';
 import { HeaderModule } from './components/header/header.module';
 import { MenuModule } from './components/menu/menu.module';
 import { ProfileModule } from './components/profile/profile.module';
+import { SectionMenuModule} from './components/section-menu/section-menu.module';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -18,7 +20,8 @@ import { ProfileModule } from './components/profile/profile.module';
     HttpModule,
     HeaderModule,
     MenuModule,
-    ProfileModule
+    ProfileModule,
+    SectionMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
