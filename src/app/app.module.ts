@@ -5,20 +5,12 @@ import { HttpModule } from '@angular/http';
 
 
 import { AppComponent } from './app.component';
-import {HeaderModule} from './components/header/header.module';
-import {MenuModule} from './components/menu/Menu.module';
-import { HeaderTitleComponent } from './atoms/header-title/header-title.component';
-import { ButtonComponent } from './atoms/button/button.component';
+import { HeaderModule } from './components/header/header.module';
+import { MenuModule } from './components/menu/menu.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    HeaderTitleComponent,
-    ButtonComponent,
-    
-
-
-
+    AppComponent
   ],
   imports: [
     BrowserModule,

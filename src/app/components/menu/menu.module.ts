@@ -1,12 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {CircleimagemenuComponent} from '../../atoms/circleimagemenu/circleimagemenu.component';
-import {MenuComponent} from "./menu.component";
+import { AtomsModule } from '../../atoms/atoms.module';
+import { MenuComponent } from "./menu.component";
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    AtomsModule
   ],
-  declarations: [CircleimagemenuComponent,MenuComponent],
-  exports : [MenuComponent]
+  declarations: [MenuComponent],
+  exports: [MenuComponent]
 })
 export class MenuModule { }
