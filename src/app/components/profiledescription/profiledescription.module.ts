@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {ButtonModule} from '../../atoms/button/button.module';
+import { AtomsModule } from '../../atoms/atoms.module';
+
 import {ProfiledescriptionComponent} from './profiledescription.component';
 
 @NgModule({
   imports: [
     CommonModule,
-    ButtonModule
-    
+    AtomsModule
   ],
-  declarations: [],
-  exports : [ProfiledescriptionModule]
+  declarations: [ProfiledescriptionComponent],
+  exports : [ProfiledescriptionComponent]
 })
 export class ProfiledescriptionModule { }

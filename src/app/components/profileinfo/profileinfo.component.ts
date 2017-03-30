@@ -6,11 +6,11 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./profileinfo.component.css']
 })
 export class ProfileinfoComponent implements OnInit {
-@Input () name;
-@Input () dateofbirth;
-@Input () mail;
-@Input () address;
-@Input () phone;
+  @Input() name;
+  @Input() dateofbirth;
+  @Input() mail;
+  @Input() address;
+  @Input() phone;
   constructor() { }
 
   ngOnInit() {
