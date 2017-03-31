@@ -10,10 +10,12 @@ import { MenuModule } from './components/menu/menu.module';
 import { ProfileModule } from './components/profile/profile.module';
 import { SectionMenuModule} from './components/section-menu/section-menu.module';
 import { DoingComponent } from './components/doing/doing.component';
+import { ThoughtsComponent } from './components/thoughts/thoughts.component';
 @NgModule({
   declarations: [
     AppComponent,
     DoingComponent,
+    ThoughtsComponent,
 
   ],
   imports: [
