@@ -12,7 +12,7 @@ import { TitleComponent } from './title/title.component';
   imports: [
     CommonModule
   ],
-  declarations: [ButtonComponent, CircleImageComponent, CircleimagemenuComponent, HeaderTitleComponent, SocialMediaComponent, TitleComponent, SectionMenuComponent],
+  declarations: [ButtonComponent, CircleImageComponent, CircleimagemenuComponent, HeaderTitleComponent, SocialMediaComponent, TitleComponent],
   exports: [ButtonComponent, CircleImageComponent, CircleimagemenuComponent, HeaderTitleComponent, SocialMediaComponent, TitleComponent]
 })
 export class AtomsModule { }
