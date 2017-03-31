@@ -7,13 +7,15 @@ import { HeaderTitleComponent } from './header-title/header-title.component';
 import { SocialMediaComponent } from './social-media/social-media.component';
 import { TitleComponent } from './title/title.component';
 import { CircleIconComponent } from './circle-icon/circle-icon.component';
+import { BlockResumeComponent } from './block-resume/block-resume.component';
+import { BlockResume2Component } from './block-resume2/block-resume2.component';
 
 
 @NgModule({
   imports: [
     CommonModule
   ],
-  declarations: [ButtonComponent, CircleImageComponent, CircleimagemenuComponent, HeaderTitleComponent, SocialMediaComponent, TitleComponent, CircleIconComponent],
-  exports: [ButtonComponent, CircleImageComponent, CircleimagemenuComponent,CircleIconComponent, HeaderTitleComponent, SocialMediaComponent, TitleComponent,]
+  declarations: [ButtonComponent, CircleImageComponent, CircleimagemenuComponent, HeaderTitleComponent, SocialMediaComponent, TitleComponent, CircleIconComponent, BlockResumeComponent, BlockResume2Component],
+  exports: [ButtonComponent, CircleImageComponent, CircleimagemenuComponent,CircleIconComponent, HeaderTitleComponent, SocialMediaComponent, TitleComponent,BlockResumeComponent,BlockResume2Component]
 })
 export class AtomsModule { }
