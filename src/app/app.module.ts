@@ -9,9 +9,11 @@ import { HeaderModule } from './components/header/header.module';
 import { MenuModule } from './components/menu/menu.module';
 import { ProfileModule } from './components/profile/profile.module';
 import { SectionMenuModule} from './components/section-menu/section-menu.module';
+import { DoingComponent } from './components/doing/doing.component';
 @NgModule({
   declarations: [
     AppComponent,
+    DoingComponent,
 
   ],
   imports: [

@@ -3,21 +3,21 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { SectionMenuComponent } from './section-menu.component';
+import { CircleIconComponent } from './circle-icon.component';
 
-describe('SectionMenuComponent', () => {
-  let component: SectionMenuComponent;
-  let fixture: ComponentFixture<SectionMenuComponent>;
+describe('CircleIconComponent', () => {
+  let component: CircleIconComponent;
+  let fixture: ComponentFixture<CircleIconComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SectionMenuComponent ]
+      declarations: [ CircleIconComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SectionMenuComponent);
+    fixture = TestBed.createComponent(CircleIconComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

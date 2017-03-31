@@ -6,13 +6,14 @@ import { CircleimagemenuComponent } from './circleimagemenu/circleimagemenu.comp
 import { HeaderTitleComponent } from './header-title/header-title.component';
 import { SocialMediaComponent } from './social-media/social-media.component';
 import { TitleComponent } from './title/title.component';
+import { CircleIconComponent } from './circle-icon/circle-icon.component';
 
 
 @NgModule({
   imports: [
     CommonModule
   ],
-  declarations: [ButtonComponent, CircleImageComponent, CircleimagemenuComponent, HeaderTitleComponent, SocialMediaComponent, TitleComponent],
-  exports: [ButtonComponent, CircleImageComponent, CircleimagemenuComponent, HeaderTitleComponent, SocialMediaComponent, TitleComponent]
+  declarations: [ButtonComponent, CircleImageComponent, CircleimagemenuComponent, HeaderTitleComponent, SocialMediaComponent, TitleComponent, CircleIconComponent],
+  exports: [ButtonComponent, CircleImageComponent, CircleimagemenuComponent,CircleIconComponent, HeaderTitleComponent, SocialMediaComponent, TitleComponent,]
 })
 export class AtomsModule { }

@@ -1,0 +1,20 @@
+div {
+background-color: white;
+font-size: 43px;
+border-radius: 50%;
+width: 110px;
+height: 110px;
+text-align: center;
+padding-top: 12%;
+border: 1px solid;
+ color: lightgray;
+ position:relative;
+}
+div:hover {
+ color: deepskyblue;
+}
+
+h4{
+  text-align: start;
+  margin-left: 11.5%;
+}
