@@ -12,12 +12,16 @@ import { SectionMenuModule} from './components/section-menu/section-menu.module'
 import { DoingComponent } from './components/doing/doing.component';
 import { ThoughtsComponent } from './components/thoughts/thoughts.component';
 import { ResumeComponent } from './components/resume/resume.component';
+import { InterestsComponent } from './components/interests/interests.component';
+import { ContactComponent } from './components/contact/contact.component';
 @NgModule({
   declarations: [
     AppComponent,
     DoingComponent,
     ThoughtsComponent,
     ResumeComponent,
+    InterestsComponent,
+    ContactComponent,
 
   ],
   imports: [

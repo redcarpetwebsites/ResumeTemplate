@@ -7,14 +7,16 @@ height: 110px;
 text-align: center;
 padding-top: 12%;
 border: 1px solid;
- color: lightgray;
+ color: deepskyblue;
  position:relative;
 }
 div:hover {
- color: deepskyblue;
+ color: lightblue;
 }
 
 h4{
-  margin-left: 15%;
+  margin-left: 12%;
+  font-size: 17px;
   text-align: start;
+  
 }
