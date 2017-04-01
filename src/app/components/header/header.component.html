@@ -1,17 +1,16 @@
 <div class="col s12 m12 l12">
   <div class="row">
     <div class="col s12 m5 l5">
-      <app-circle-image image="https://fb-s-a-a.akamaihd.net/h-ak-xfp1/v/t1.0-9/16508058_1238997929530427_4347577828821171341_n.jpg?oh=37ab43e926d8b33c6d3e424f53beb598&oe=594CC8C7&__gda__=1499518848_420dfd0d6e4a1e2c610226ecd8b17ec0"></app-circle-image>
+      <app-circle-image [image]="header.image"></app-circle-image>
     </div>
     <div class="col s12 m7 l7 center-align">
       <div class="col s12 m12 l12 center-align">
-        <app-title title="djbs" subtitle="dewkdjn"> </app-title>
+        <app-title [title]="header.title" [subtitle]="header.subtitle"> </app-title>
       </div>
       <div class="col s10 offset-s1 m10 offset-m1 l10 offset-l1 center-align">
-        <app-social-media
-        facebookurl = "" googleplusurl= "" githuburl= "" twitterurl="" linkedinkurl = ""></app-social-media>
+        <app-social-media [facebookurl]="social.facebook" [googleplusurl]="social.google" [githuburl]="social.github" [twitterurl]="social.twitter"
+          [linkedinkurl]="social.linkedin"></app-social-media>
       </div>
     </div>
   </div>
-
 </div>

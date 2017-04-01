@@ -1,20 +1,18 @@
-
-
 <div class="row">
-      <div class="col s4 offset-s2 m1  offset-m5 l1 offset-l5 text-align">
-      <app-circle-image image="https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/16864183_10210664369718443_9008044928972198531_n.jpg?oh=52d7ea6a076df503adf0359b1f0404a5&oe=59564254"></app-circle-image>
-      </div>
-      <div class="col s3 m2 l2 text-align">
-      <app-header-title title="Contact" subtitle="Get in touch with me"></app-header-title>
-      </div>
+  <div class="col s4 m1 offset-m5 l1 offset-l5 text-align">
+    <app-circle-image [image]="contact.imageIcon"></app-circle-image>
   </div>
-  <hr>
+  <div class="col s8 m2 l2">
+    <app-header-title title="Contact" subtitle="Get in touch with me"></app-header-title>
+  </div>
+</div>
+<hr>
 <div class="row">
-  <div class="col s10 offset-s1 m5 l5 ">
-    <app-contactinfo></app-contactinfo>
+  <div class="col s12 m6 l6">
+    <app-contactinfo [address]="contact.address" [phone]="contact.phone" [mail]="contact.mail" [website]="contact.website"></app-contactinfo>
   </div>
 
-  <div class="col s10 offset-s1  m5 l5 ">
+  <div class="col s12 m6 l6">
     <app-contactform></app-contactform>
   </div>
 </div>

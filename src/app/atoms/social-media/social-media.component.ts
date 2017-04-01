@@ -1,4 +1,4 @@
-import { Component, OnInit , Input } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-social-media',
@@ -6,13 +6,11 @@ import { Component, OnInit , Input } from '@angular/core';
   styleUrls: ['./social-media.component.css']
 })
 export class SocialMediaComponent implements OnInit {
-@Input() facebookurl;
-@Input() linkedinkurl;
-@Input() googleplusurl;
-@Input() githuburl;
-@Input() twitterurl;
-
-
+  @Input() facebookurl;
+  @Input() linkedinkurl;
+  @Input() googleplusurl;
+  @Input() githuburl;
+  @Input() twitterurl;
 
   constructor() { }
 

@@ -1,16 +1,23 @@
-<app-header></app-header>
-<hr>
-<app-menu></app-menu>
-<hr>
-<app-profile></app-profile>
-<hr>
-<app-doing></app-doing>
-<hr>
-<app-thoughts></app-thoughts>
-<hr>
-<app-resume></app-resume>
-<hr>
-<app-interests></app-interests>
-<hr>
-<app-contact></app-contact>
-<!--<app-bar skill="java" number="30" width="70%"></app-bar>-->
+<div class="container">
+    <div class="card-panel z-depth-3">
+        <app-header [header]="header" [social]="social"></app-header>
+        <hr>
+        <app-menu></app-menu>
+        <hr>
+        <app-profile [profile]="profile"></app-profile>
+        <hr>
+        <app-doing [doings] = "doings"></app-doing>
+        <hr>
+        <app-thoughts 
+        [paragraph]="thoughts.paragraph"
+        [author]="thoughts.author"
+        ></app-thoughts>
+        <hr>
+        <app-resume [resume]="resume"></app-resume>
+        <hr>
+        <app-interests [interests] = "interests"></app-interests>
+        <hr>
+        <app-contact [contact]="contact"></app-contact>
+        <!--<app-bar skill="java" number="30" width="70%"></app-bar>-->
+    </div>
+</div>

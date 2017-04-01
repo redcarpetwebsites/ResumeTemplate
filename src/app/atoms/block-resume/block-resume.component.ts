@@ -6,15 +6,26 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./block-resume.component.css']
 })
 export class BlockResumeComponent implements OnInit {
-@Input () name;
-@Input () address;
-@Input () period;
-@Input () level;
-@Input () paragraph;
 
+
+  @Input() education;
+  idx: number;
   constructor() { }
 
   ngOnInit() {
+    this.idx = 0;
   }
 
+  right() {
+    this.idx++;
+    if (this.idx >= this.education.length) {
+      this.idx = 0;
+    }
+  }
+  left() {
+    this.idx--;
+    if (this.idx < 0) {
+      this.idx = this.education.length-1;
+    }
+  }
 }

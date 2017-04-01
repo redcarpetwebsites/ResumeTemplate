@@ -8,19 +8,16 @@ import { AppComponent } from './app.component';
 import { HeaderModule } from './components/header/header.module';
 import { MenuModule } from './components/menu/menu.module';
 import { ProfileModule } from './components/profile/profile.module';
-import { DoingComponent } from './components/doing/doing.component';
-import { ThoughtsComponent } from './components/thoughts/thoughts.component';
-import { ResumeComponent } from './components/resume/resume.component';
-import { InterestsComponent } from './components/interests/interests.component';
-import { ContactComponent } from './components/contact/contact.component';
+import { DoingModule } from './components/doing/doing.module';
+import { ThoughtsModule } from './components/thoughts/thoughts.module';
+import { ResumeModule } from './components/resume/resume.module';
+import { InterestsModule } from './components/interests/interests.module';
+import { ContactModule } from './components/contact/contact.module';
+
+
 @NgModule({
   declarations: [
-    AppComponent,
-    DoingComponent,
-    ThoughtsComponent,
-    ResumeComponent,
-    InterestsComponent,
-    ContactComponent
+    AppComponent
 
   ],
   imports: [
@@ -29,7 +26,12 @@ import { ContactComponent } from './components/contact/contact.component';
     HttpModule,
     HeaderModule,
     MenuModule,
-    ProfileModule
+    ProfileModule,
+    DoingModule,
+    ThoughtsModule,
+    ResumeModule,
+    InterestsModule,
+    ContactModule
   ],
   providers: [],
   bootstrap: [AppComponent]

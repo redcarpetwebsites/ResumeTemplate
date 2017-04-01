@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-profiledescription',
@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProfiledescriptionComponent implements OnInit {
 
+  @Input() title;
+  @Input() description1;
+  @Input() description2;
   constructor() { }
 
   ngOnInit() {

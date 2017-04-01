@@ -1,4 +1,4 @@
-import { Component, OnInit ,Input } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-contactinfo',
@@ -6,10 +6,10 @@ import { Component, OnInit ,Input } from '@angular/core';
   styleUrls: ['./contactinfo.component.css']
 })
 export class ContactinfoComponent implements OnInit {
-@Input () address;
-@Input () phone;
-@Input () mail;
-@Input () website;
+  @Input() address;
+  @Input() phone;
+  @Input() mail;
+  @Input() website;
   constructor() { }
 
   ngOnInit() {
