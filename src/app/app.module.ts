@@ -8,7 +8,6 @@ import { AppComponent } from './app.component';
 import { HeaderModule } from './components/header/header.module';
 import { MenuModule } from './components/menu/menu.module';
 import { ProfileModule } from './components/profile/profile.module';
-import { SectionMenuModule} from './components/section-menu/section-menu.module';
 import { DoingComponent } from './components/doing/doing.component';
 import { ThoughtsComponent } from './components/thoughts/thoughts.component';
 import { ResumeComponent } from './components/resume/resume.component';
@@ -21,7 +20,7 @@ import { ContactComponent } from './components/contact/contact.component';
     ThoughtsComponent,
     ResumeComponent,
     InterestsComponent,
-    ContactComponent,
+    ContactComponent
 
   ],
   imports: [
@@ -30,8 +29,7 @@ import { ContactComponent } from './components/contact/contact.component';
     HttpModule,
     HeaderModule,
     MenuModule,
-    ProfileModule,
-    SectionMenuModule
+    ProfileModule
   ],
   providers: [],
   bootstrap: [AppComponent]
