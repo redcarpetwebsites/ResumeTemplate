@@ -99,19 +99,21 @@ export class InfoService {
     website: "redcapertsolutions.io"
   }
 
-  skills = [
-    {
-      skill:"Unity",
-      value:100
-    },{
-      skill:"Android",
-      value:100
-    },{
-      skill:"Javascript",
-      value:60
-    }
-  ]
-
+  skills = {
+    "imageIcon": "https://scontent.ftun4-1.fna.fbcdn.net/v/t1.0-9/16864183_10210664369718443_9008044928972198531_n.jpg?oh=52d7ea6a076df503adf0359b1f0404a5&oe=59564254",
+    skills: [
+      {
+        skill: "Unity",
+        value: 100
+      }, {
+        skill: "Android",
+        value: 100
+      }, {
+        skill: "Javascript",
+        value: 60
+      }
+    ]
+  }
   getHeader() {
     return this.header;
   }

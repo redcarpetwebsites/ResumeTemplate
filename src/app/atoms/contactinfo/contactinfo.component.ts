@@ -10,6 +10,7 @@ export class ContactinfoComponent implements OnInit {
   @Input() phone;
   @Input() mail;
   @Input() website;
+  @Input() social;
   constructor() { }
 
   ngOnInit() {
