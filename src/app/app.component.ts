@@ -16,6 +16,7 @@ export class AppComponent implements OnInit {
     resume;
     interests;
     contact;
+    skills;
     
     constructor(private service : InfoService){
       
@@ -30,6 +31,7 @@ export class AppComponent implements OnInit {
       this.resume = this.service.getResume();
       this.interests = this.service.getIntereset();
       this.contact = this.service.getContact();
+      this.skills = this.service.getSkills();
     }
 
 

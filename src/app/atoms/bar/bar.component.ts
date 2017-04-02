@@ -6,12 +6,14 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./bar.component.css']
 })
 export class BarComponent implements OnInit {
-@Input () skill;
-@Input () number ;
-// @Input () width ;
+  @Input() skill;
+  @Input() value;
   constructor() { }
 
   ngOnInit() {
+    setTimeout(() => {
+      document.getElementById("progress-" + this.skill).style.width = this.value + "%";
+    }, 0);
   }
 
 }

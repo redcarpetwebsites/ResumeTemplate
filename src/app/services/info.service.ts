@@ -99,6 +99,19 @@ export class InfoService {
     website: "redcapertsolutions.io"
   }
 
+  skills = [
+    {
+      skill:"Unity",
+      value:100
+    },{
+      skill:"Android",
+      value:100
+    },{
+      skill:"Javascript",
+      value:60
+    }
+  ]
+
   getHeader() {
     return this.header;
   }
@@ -123,5 +136,8 @@ export class InfoService {
   }
   getContact() {
     return this.contact;
+  }
+  getSkills() {
+    return this.skills;
   }
 }

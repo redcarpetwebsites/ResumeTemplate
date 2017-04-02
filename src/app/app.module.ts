@@ -13,6 +13,7 @@ import { ThoughtsModule } from './components/thoughts/thoughts.module';
 import { ResumeModule } from './components/resume/resume.module';
 import { InterestsModule } from './components/interests/interests.module';
 import { ContactModule } from './components/contact/contact.module';
+import { SkillsModule } from './components/skills/skills.module';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { ContactModule } from './components/contact/contact.module';
     ThoughtsModule,
     ResumeModule,
     InterestsModule,
-    ContactModule
+    ContactModule,
+    SkillsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
