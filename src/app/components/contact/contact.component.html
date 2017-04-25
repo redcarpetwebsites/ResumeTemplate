@@ -1,0 +1,18 @@
+<div class="row">
+  <div class="col s4 m1 offset-m5 l1 offset-l5 text-align">
+    <app-circle-image [image]="contact.imageIcon"></app-circle-image>
+  </div>
+  <div class="col s8 m2 l2">
+    <app-header-title title="Contact" subtitle="Get in touch with me"></app-header-title>
+  </div>
+</div>
+<hr>
+<div class="row">
+  <div class="col s12 m6 l6">
+    <app-contactinfo [address]="contact.address" [phone]="contact.phone" [mail]="contact.mail" [website]="contact.website" [social]="social"></app-contactinfo>
+  </div>
+
+  <div class="col s12 m6 l6">
+    <app-contactform></app-contactform>
+  </div>
+</div>

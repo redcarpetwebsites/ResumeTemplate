@@ -1,0 +1,16 @@
+<div *ngIf="work.length >0" class="row">
+  <div class="col s10 offset-s1 m12 l12">
+    <h2>Work</h2>
+  </div>
+  <div class="box col s10 offset-s1 m9 l9">
+    <ul>
+      <li>Compagny Name : {{work[idx].compagny}}</li>
+      <li>Address : {{work[idx].address}}</li>
+      <li>Period : {{work[idx].period}}</li>
+      <li>Post : {{work[idx].post}}</li>
+    </ul>
+    <button (click)="left()"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+    <button (click)="right()"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+
+  </div>
+</div>

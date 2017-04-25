@@ -1,0 +1,18 @@
+<!--title-->
+<div class="row">
+  <div class="col s4 m1 offset-m5 l1 offset-l5 text-align">
+    <app-circle-image [image]="profile.imageIcon"></app-circle-image>
+  </div>
+  <div class="col s8 m2 l2 text-align">
+    <app-header-title title="Profile" subtitle="A Brief about me"></app-header-title>
+  </div>
+</div>
+<hr>
+<div class="row">
+  <div class="col s12 m6 l6">
+    <app-profiledescription [title]="profile.title" [description1]="profile.description1" [description2]="profile.description2"></app-profiledescription>
+  </div>
+  <div class="col s12 m6 l6">
+    <app-profileinfo [name]="profile.name" [dateofbirth]="profile.dateofbirth" [mail]="profile.mail" [address]="profile.address" [phone]="profile.phone"></app-profileinfo>
+  </div>
+</div>

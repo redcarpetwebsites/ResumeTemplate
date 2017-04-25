@@ -1,0 +1,15 @@
+.box {
+    background-color: #fdfdfd;
+    width: 35%;
+    border: 1px solid lightgray;
+    padding: 25px;
+    line-height: 0.8cm;
+}
+
+li{
+    font-size :16px;
+}
+
+.paragraph{
+    font-family: "Lucida Console", Monaco, monospace;
+}

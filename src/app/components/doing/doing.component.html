@@ -1,0 +1,10 @@
+<div class="row">
+    <div class="col s12 m12 l12">
+        <h2>What i’m doing</h2>
+        <div class="row">
+            <div *ngFor="let i of doings" class="col s4 m2 l2">
+                <app-circle-icon icon="fa {{i.icon}}" text="{{i.text}}"></app-circle-icon>
+            </div>
+        </div>
+    </div>
+</div>

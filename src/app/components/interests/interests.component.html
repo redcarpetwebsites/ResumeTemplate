@@ -1,0 +1,9 @@
+<div class="col s12 m12 l12">
+    <h2>Interests</h2>
+    <br><br>
+    <div class="row">
+        <div *ngFor="let i of interests" class="col s4 m2 l2">
+            <app-circle-icon icon="fa {{i.icon}}" text="{{i.text}}"></app-circle-icon>
+        </div>
+    </div>
+</div>

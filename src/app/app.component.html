@@ -1,3 +1,24 @@
-<h1>
-  {{title}}
-</h1>
+<div class="container">
+    <div class="card-panel z-depth-3">
+        <app-header [header]="header" [social]="social"></app-header>
+        <hr>
+        <app-menu></app-menu>
+        <hr>
+        <app-profile [profile]="profile"></app-profile>
+        <hr>
+        <app-doing [doings] = "doings"></app-doing>
+        <hr>
+        <app-thoughts 
+        [paragraph]="thoughts.paragraph"
+        [author]="thoughts.author"
+        ></app-thoughts>
+        <hr>
+        <app-resume [resume]="resume"></app-resume>
+        <hr>
+        <app-interests [interests] = "interests"></app-interests>
+        <hr>
+        <app-contact [contact]="contact" [social]="social"></app-contact>
+        <hr>
+        <app-skills [skills]="skills"></app-skills>
+    </div>
+</div>
