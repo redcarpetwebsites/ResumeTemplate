@@ -36,6 +36,7 @@ body{
 .icon-circle  i:before{
     margin-left         : 0px;
     font-size           : 20px;
+
 }
 
 @media (min-width:320px) and (max-width:768px) {
@@ -123,8 +124,6 @@ body{
     color                   : #fff;
     border                  : 1px solid #007bb7;
 }
-
-
 .fa {
     max-height: 50px;
     max-width: 50px;
