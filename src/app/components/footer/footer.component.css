@@ -1,0 +1,11 @@
+.fa{
+    font-size: 20px;
+}
+@keyframes colors {
+     from {}
+    to {color: lightblue;}
+}
+.icon:hover {
+    animation-name: colors;
+    animation-duration: 0.5s;
+}

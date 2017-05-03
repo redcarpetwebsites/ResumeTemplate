@@ -14,12 +14,13 @@ import { ResumeModule } from './components/resume/resume.module';
 import { InterestsModule } from './components/interests/interests.module';
 import { ContactModule } from './components/contact/contact.module';
 import { SkillsModule } from './components/skills/skills.module';
+import { FooterModule } from './components/footer/footer.module';
+import { ExperienceModule } from './components/experience/experience.module';
 
 
 @NgModule({
   declarations: [
-    AppComponent
-
+    AppComponent,
   ],
   imports: [
     BrowserModule,
@@ -33,7 +34,9 @@ import { SkillsModule } from './components/skills/skills.module';
     ResumeModule,
     InterestsModule,
     ContactModule,
-    SkillsModule
+    SkillsModule,
+    FooterModule,
+    ExperienceModule
   ],
   providers: [],
   bootstrap: [AppComponent]

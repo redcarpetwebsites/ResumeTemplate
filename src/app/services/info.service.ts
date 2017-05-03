@@ -112,8 +112,27 @@ export class InfoService {
         skill: "Javascript",
         value: 60
       }
+    ],
+    skillscicle: [
+      {
+        skill: "Unity",
+        value: 45
+      }, {
+        skill: "Android",
+        value: 78
+      }, {
+        skill: "Javascript",
+        value: 32
+      }
     ]
+  };
+  experience = {
+    clients: 450,
+    projects: 205,
+    years: 3,
+    contests: 12
   }
+
   getHeader() {
     return this.header;
   }
@@ -141,5 +160,8 @@ export class InfoService {
   }
   getSkills() {
     return this.skills;
+  }
+  getExperience() {
+    return this.experience;
   }
 }

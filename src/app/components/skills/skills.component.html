@@ -5,8 +5,20 @@
     <div class="col s8 m2 l2">
         <app-header-title title="Skills" subtitle=""></app-header-title>
     </div>
-</div>
-<hr>
-<div class="col s12 m12 l12">
-    <app-bar *ngFor="let s of skills.skills" [skill]="s.skill" [value]="s.value"></app-bar>
+    <hr>
+    <div class="col s12 m12 l12">
+        <div class="col s12 m6 l6">
+            <div class="col s4 m4 l4" *ngFor="let c of skills.skillscicle">
+                <div class="col s12 m12 l12">
+                    <app-circle-progress percent="{{c.value}}"></app-circle-progress>
+                </div>
+                <div class="col s12 m12 l12">
+                    {{c.skill}}
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l6">
+            <app-bar *ngFor="let s of skills.skills" [skill]="s.skill" [value]="s.value"></app-bar>
+        </div>
+    </div>
 </div>

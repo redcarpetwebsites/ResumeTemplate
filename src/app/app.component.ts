@@ -17,6 +17,7 @@ export class AppComponent implements OnInit {
     interests;
     contact;
     skills;
+    experience;
     
     constructor(private service : InfoService){
       
@@ -32,6 +33,7 @@ export class AppComponent implements OnInit {
       this.interests = this.service.getIntereset();
       this.contact = this.service.getContact();
       this.skills = this.service.getSkills();
+      this.experience = this.service.getExperience();
     }
 
 

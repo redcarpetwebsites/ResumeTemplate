@@ -1,16 +1,24 @@
-<div class="row">
+<div class="row sticky flatmenu">
   <div class="col s12 m8 offset-m2 l8 offset-l2">
-    <div class="col s6 m3 l3">
-      <app-circleimagemenu text="profile"></app-circleimagemenu>
+    <div class="col s4 m4 l4">
+      <div class="element" (click)="goTo('profile')">
+        profile
+      </div>
     </div>
-    <div class="col s6 m3 l3">
-      <app-circleimagemenu text="Resume"></app-circleimagemenu>
+    <div class="col s4 m4 l4">
+      <div class="element" (click)="goTo('resume')">
+        Resume
+      </div>
     </div>
-    <div class="col s6 m3 l3">
-      <app-circleimagemenu text="Portfolio"></app-circleimagemenu>
-    </div>
-    <div class="col s6 m3 l3">
-      <app-circleimagemenu text="Contact"></app-circleimagemenu>
+    <!--<div class="col s4 m4 l4">
+     <div class="element" (click)="goTo('portolio')">
+        Portfolio
+      </div>
+    </div>-->
+    <div class="col s4 m4 l4">
+      <div class="element" (click)="goTo('contact')">
+        Contact
+      </div>
     </div>
   </div>
 </div>

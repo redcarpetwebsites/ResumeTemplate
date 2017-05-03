@@ -1,0 +1,21 @@
+@keyframes colors {
+     from {}
+    to {color: lightblue;}
+}
+
+.icon {
+    text-align: center;
+    font-size: 40px;
+}
+.text {
+    text-align: center;
+    font-size: 20px;
+}
+.icon:hover {
+    animation-name: colors;
+    animation-duration: 0.5s;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 48px;
+}
