@@ -1,5 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
+
 import { ButtonComponent } from './button/button.component';
 import { CircleImageComponent } from './circle-image/circle-image.component';
 import { HeaderTitleComponent } from './header-title/header-title.component';
@@ -16,7 +19,9 @@ import { CircleProgressComponent } from './circle-progress/circle-progress.compo
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule,
+    HttpModule
   ],
   declarations: [ButtonComponent, CircleImageComponent, HeaderTitleComponent, SocialMediaComponent, TitleComponent, CircleIconComponent, BlockResumeComponent, BlockResume2Component, BarComponent, ContactinfoComponent, ContactformComponent, CircleProgressComponent],
   exports: [ButtonComponent, CircleImageComponent,CircleIconComponent, HeaderTitleComponent, SocialMediaComponent, TitleComponent,BlockResumeComponent,BlockResume2Component,BarComponent,ContactinfoComponent,ContactformComponent,CircleProgressComponent]

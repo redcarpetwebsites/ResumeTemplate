@@ -1,25 +1,20 @@
 <div class="row">
-  <div class="col s12 m12 l12">
-    <h2>Contact Form</h2>
-    <form>
-      <div class="form-group">
-        <input type="text" placeholder="Name" style="font-size: 15px;">
-      </div>
-
-
-      <div class="form-group">
-        <input type="email" placeholder="Email" style="font-size: 15px;">
-      </div>
-
-      <div class="form-group">
-        <h4>Message:</h4>
-        <textarea class="form-control" rows="5" id="comment"></textarea>
-      </div>
-
-      <div class="form-group">
-        <app-button text="send message"></app-button>
-      </div>
-
-    </form>
-  </div>
+    <div class="col s12 m12 l12">
+        <h2>Contact Form</h2>
+        <form>
+            <div class="form-group">
+                <input type="text" placeholder="Name" [(ngModel)]="data.subject" name="subject" style="font-size: 15px;">
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Email" [(ngModel)]="data.from" name="email" style="font-size: 15px;">
+            </div>
+            <div class="form-group">
+                <h4>Message:</h4>
+                <textarea class="form-control" rows="5" [(ngModel)]="data.content" name="content" id="comment"></textarea>
+            </div>
+            <div class="form-group">
+                <app-button text="send message" (clicks)="send()"></app-button>
+            </div>
+        </form>
+    </div>
 </div>
